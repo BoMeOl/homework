@@ -1,0 +1,185 @@
+/* @import url(reset.css);*/
+@import url(fonts.css);
+
+.header {
+	font-size: 40px;
+	font-weight: 700;
+	max-width: 1900px;
+	
+}
+
+.container {
+	height: 819px;
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: #231F8B;
+	margin-bottom: 50px;
+}
+
+.content {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.title {
+	padding-top: 112px;
+}
+
+.title h3 {
+	color: #5A54F2;
+	margin-bottom: 10px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.42;
+}
+
+.title h1 {
+	color: #FFF;
+	font-family: "CircularStd", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	padding-bottom: 10px;
+
+}
+
+.title-text {
+	color: #FFF;
+	padding-bottom: 70px;
+	font-family: "CircularStd", sans-serif;
+	max-width: 765px;
+}
+
+.cards {
+	display: inline-block;
+	font-size: 0;
+
+}
+
+.cards li {
+	display: inline-block;
+	max-width: 230px;
+	background-color: #FFF;
+	height: 288px;
+	margin-right: 30px;
+	padding: 35px 40px;
+	vertical-align: top;
+}
+
+.cards img {
+	margin-bottom: 20px;
+	height: 72px;
+	width: 72px;
+}
+
+#card3 {
+	background-color: #5A54F2;
+
+}
+
+#card3 h2 {
+	color: #FFF;
+}
+
+#card3 p {
+	color: #FFF;
+}
+
+.cards h2 {
+	color: #252B42;
+	font-family: "CircularStd", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 20px;
+
+}
+
+.cards-text {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #737373;
+	margin-bottom: 20px;
+}
+
+.line {
+	background-color: #E74040;
+	height: 2px;
+	width: 50px;
+	margin-bottom: 20px;
+}
+
+#card4 {
+	margin-right: 0;
+}
+
+#card2,
+#card4 {
+	margin-top: 48px;
+}
+
+.practice {
+	background-color: aqua;
+	max-width: 1920px;
+	height: 750px;
+	margin: 0 auto;
+}
+
+.overflow {
+	font-size: 0;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: chartreuse;
+	height: 400px;
+	padding: 50px;
+
+}
+
+.overflow-scroll {
+	overflow: scroll;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: top;
+}
+
+.overflow-visible {
+	display: inline-block;
+	overflow: visible;
+	vertical-align: middle;
+	width: 200px;
+	height: 100px;
+	background-color: antiquewhite;
+	font-size: 16px;
+}
+
+.overflow-hidden {
+	display: inline-block;
+	overflow: hidden;
+	width: 200px;
+	height: 100px;
+	background-color: rgb(123, 101, 73);
+	font-size: 16px;
+	padding-left: 50px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.overflow-auto {
+	display: inline-block;
+	overflow: auto;
+	width: 250px;
+	height: 200px;
+	background-color: rgb(238, 195, 139);
+	font-size: 16px;
+
+}
+
+.the-end {
+	font-size: 40px;
+	font-weight: 700;
+	max-width: 1900px;
+	
+}
